@@ -181,7 +181,7 @@ for message in consumer:
 2. 實作`https-kafka-microservice`：將爬取的資訊以Kafka producer寫入`my-test-topic`中
 3. 實作`kafka-mongo-microservice`：利用Kafka consumer訂閱`my-test-topic`，並讀取其中資訊存放至MongoDB中
 
-<div align=center><img src="https://user-images.githubusercontent.com/100120881/172556695-4a668d53-1fef-485b-b5e0-7dcd2fa54bc2.png" width="800"></div>
+<div align=center><img src="https://user-images.githubusercontent.com/100120881/172754025-d515185c-0786-4005-bf5c-45eda7106f65.png" width="800"></div>
 
 首先，為了將MongoDB服務跑起來，我們在`docker-compose.yml`加入`mongodb`相關設定：
 
